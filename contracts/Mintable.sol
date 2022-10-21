@@ -18,7 +18,7 @@ abstract contract Mintable is Ownable, IMintable {
     }
 
     modifier onlyOwnerOrIMX() {
-        require(msg.sender == imx || msg.sender == owner(), "Function can only be called by owner or IMX");
+        require(msg.sender == imx, "Function can only be called by IMX");
         _;
     }
 
