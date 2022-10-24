@@ -17,7 +17,7 @@ abstract contract Mintable is Ownable, IMintable {
         transferOwnership(_owner);
     }
 
-    modifier onlyOwnerOrIMX() {
+    modifier onlyIMX() {
         require(msg.sender == imx, "Function can only be called by IMX");
         _;
     }
