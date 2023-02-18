@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "imx-contracts/node_modules/@openzeppelin/contracts/access/Ownable.sol";
 import "./IMintable.sol";
 import "./utils/Minting.sol";
 

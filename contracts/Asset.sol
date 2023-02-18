@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "imx-contracts/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "./Mintable.sol";
 
 contract Asset is ERC721, Mintable {
